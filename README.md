@@ -63,7 +63,7 @@ Give it a read before you attempt any of the writeups in [`CTF's`](https://dorsi
 
 ## Contact
 
-- 🌐 **Site** — [dorsiawave.dorsia74964.workers.dev](https://dorsiawave-me.pages.dev/)
+- 🌐 **Site** — [dorsiawave-me.pages.dev](https://dorsiawave-me.pages.dev/)
 - 💻 **GitHub** — [@dorisa74964](https://github.com/dorisa74964) · mirror [@dorsia74964](https://github.com/dorsia74964)
 - 💼 **LinkedIn** — [in/dorisa74964](https://www.linkedin.com/in/dorisa74964)
 - 📄 **Reports archive** — [github.com/dorisa74964/Reports](https://github.com/dorisa74964/Reports)
