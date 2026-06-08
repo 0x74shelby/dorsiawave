@@ -17,13 +17,13 @@
 
 Hey — I'm **Th0mas_Sh316y**. I've spent the last three years doing offensive security: black-box, grey-box, and white-box pentesting, Active Directory attacks, web-app exploitation, and the occasional malware deep-dive when something old and weird catches my attention (the 1986 Brain virus post in `/blog` started exactly that way).
 
-This repo is the source for [**dorsiawave.dorsia74964.workers.dev**](https://dorsiawave.dorsia74964.workers.dev) — a hand-coded static site. No framework, no build step, no tracking. Every page is a single HTML file you can open in a browser and read. I wanted the code to be as honest as the writeups.
+This repo is the source for [**Personal Website**]() — a hand-coded static site. No framework, no build step, no tracking. Every page is a single HTML file you can open in a browser and read. I wanted the code to be as honest as the writeups.
 
 Three entry points:
 
-- 🏠 **Home** → hero, capabilities, pentest projects → [`index.html`](https://dorsiawave.dorsia74964.workers.dev/)
-- 📝 **Blog** → long-form malware &amp; security research → [`blog.html`](https://dorsiawave.dorsia74964.workers.dev/blog)
-- 🎯 **CTF Writeups** → rooted machines, step-by-step → [`ctf.html`](https://dorsiawave.dorsia74964.workers.dev/ctf)
+- 🏠 **Home** → hero, capabilities, pentest projects → [`index.html`](https://dorsiawave-me.pages.dev/)
+- 📝 **Blog** → long-form malware &amp; security research → [`blog.html`](https://dorsiawave-me.pages.dev/blog)
+- 🎯 **CTF Writeups** → rooted machines, step-by-step → [`ctf.html`](https://dorsiawave-me.pages.dev/ctf)
 
 ---
 
@@ -31,7 +31,7 @@ Three entry points:
 
 | Post | Category | Status |
 |---|---|---|
-| [The Brain Virus (1986): Two Brothers, Lahore, and the First PC Virus](https://dorsiawave.dorsia74964.workers.dev/blog-worlds-first-virus) | Malware history · Case study | Published |
+| [The Brain Virus (1986): Two Brothers, Lahore, and the First PC Virus](https://dorsiawave-me.pages.dev/blog-worlds-first-virus) | Malware history · Case study | Published |
 | _More malware &amp; red-team posts in progress_ | — | Queued |
 
 ---
@@ -42,10 +42,10 @@ Three recent engagements — full PDF reports on my [Reports repo](https://githu
 
 | Project | Type | Difficulty | What it tested |
 |---|---|---|---|
-| [Blinders](https://dorsiawave.dorsia74964.workers.dev/post-blinders) | Black box | Medium | OSINT → credential reuse → privesc |
-| [Demon](https://dorsiawave.dorsia74964.workers.dev/post-demon) | Grey box | Hard | Vhost discovery, Jenkins RCE, sudo misconfig, rbash escape |
-| [KGF](https://dorsiawave.dorsia74964.workers.dev/post-kgf) | White box | Hard | SNMP enum, IMAPS creds, r-services pivot, dual-host root |
-| [VulnCMS](https://dorsiawave.dorsia74964.workers.dev/post-vulncms) | VulnHub | Medium | Drupalgeddon2 RCE, journalctl GTFObins |
+| [Blinders](https://dorsiawave-me.pages.dev/post-blinders) | Black box | Medium | OSINT → credential reuse → privesc |
+| [Demon](https://dorsiawave-me.pages.dev/post-demon) | Grey box | Hard | Vhost discovery, Jenkins RCE, sudo misconfig, rbash escape |
+| [KGF](https://dorsiawave-me.pages.dev/post-kgf) | White box | Hard | SNMP enum, IMAPS creds, r-services pivot, dual-host root |
+| [VulnCMS](https://dorsiawave-me.pages.dev/post-vulncms) | VulnHub | Medium | Drupalgeddon2 RCE, journalctl GTFObins |
 
 ---
 ## CTF machines — UTM virtualization guide
@@ -56,7 +56,7 @@ Instead of rewriting everything here, I put together a small walk-through site c
 
 **📖 Guide:** [utm.dorisa74964.workers.dev](https://utm.dorisa74964.workers.dev/)
 
-Give it a read before you attempt any of the writeups in [`CTF's`](https://dorsiawave.dorsia74964.workers.dev/ctf) — a lot of the "why can't I reach the box" questions I get are just network-mode issues the guide already answers.
+Give it a read before you attempt any of the writeups in [`CTF's`](https://dorsiawave-me.pages.dev/ctf) — a lot of the "why can't I reach the box" questions I get are just network-mode issues the guide already answers.
 
 > ⚠️ Anything you boot in a CTF context is intentionally vulnerable. Keep it on a host-only / NAT interface. Don't bridge it to your LAN and definitely don't expose it to the open internet.
 ---
