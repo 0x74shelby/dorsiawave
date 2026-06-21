@@ -2,7 +2,7 @@
 
 <p align="center">
   <em>Penetration testing · Red team operations · CTF writeups · Malware research</em><br/>
-  <sub>Built &amp; maintained by <a href="https://github.com/0x74shelby">@0x74shelby</a> · Based in Bangalore, India</sub>
+  <sub>Built &amp; maintained by <a href="https://github.com/0x74shelby">@0x74shelby</a> </sub>
 </p>
 
 <p align="center">
