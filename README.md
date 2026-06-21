@@ -1,4 +1,4 @@
-<h1 align="center">Th0mas_Sh316y — Security Engineer, Penetration Tester &amp; Red Teamer</h1>
+<h1 align="center">0x74shelby — Security Engineer, Penetration Tester &amp; Red Teamer</h1>
 
 <p align="center">
   <em>Penetration testing · Red team operations · CTF writeups · Malware research</em><br/>
@@ -16,7 +16,7 @@
 
 ## About
 
-I'm **Th0mas_Sh316y** — a security engineer based in Bangalore, doing penetration testing and red team work. Three years in, and I've stopped counting the apps, networks, and Active Directory forests I've gone through. The job is simple to describe and hard to do well: find what a real attacker would find, before they do, and prove it with a clean repro instead of a guess.
+I'm **0x74shelby** — a security engineer based in Bangalore, doing penetration testing and red team work. Three years in, and I've stopped counting the apps, networks, and Active Directory forests I've gone through. The job is simple to describe and hard to do well: find what a real attacker would find, before they do, and prove it with a clean repro instead of a guess.
 
 CPTS (Hack The Box, 2026) and CEH (EC-Council, 2023) are the two certs I'll actually point you to. I don't treat them as trophies. They're just proof I've been tested on the stuff I claim to know. Outside of paid engagements, you'll usually find me knee-deep in a CTF box or chasing an old malware sample down a rabbit hole — the [Brain virus post](https://dorsiawave-me.pages.dev/blog/blog-worlds-first-virus.html) below started exactly that way.
 
@@ -42,7 +42,7 @@ What's actually in the kit, not just the logo wall:
 
 ## Pentest assessments
 
-Four engagements, each with the full PDF report on my [Reports archive](https://github.com/0x74shelby/Reports):
+Four engagements, each with the full PDF report on my [Reports archive](https://github.com/0x74shelby/pentestreports):
 
 | Engagement | Type | Difficulty | What it tested |
 |---|---|---|---|
@@ -97,5 +97,5 @@ Open to red team work and pentest engagements — reach out if you want to talk 
 ---
 
 <p align="center">
-  <sub>© 2026 Th0mas_Sh316y — All writeups &amp; posts are my own work.</sub>
+  <sub>© 0x74shelby — All writeups &amp; posts are my own work.</sub>
 </p>
