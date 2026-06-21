@@ -90,7 +90,7 @@ Full archive on the [CTF page](https://dorsiawave-me.pages.dev/ctf.html).
 
 - 🌐 **Portfolio** — [dorsiawave-me.pages.dev](https://dorsiawave-me.pages.dev/)
 - 💻 **GitHub** — [@0x74shelby](https://github.com/0x74shelby)
-- 📄 **Reports archive** — [github.com/0x74shelby/Reports](https://github.com/0x74shelby/Reports)
+- 📄 **Reports archive** — [github.com/0x74shelby/pentestreports](https://github.com/0x74shelby/pentestreports)
 
 Open to red team work and pentest engagements — reach out if you want to talk shop or just ask how I rooted KGF.
 
