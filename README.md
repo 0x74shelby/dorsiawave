@@ -1,101 +1,134 @@
-<h1 align="center">0x74shelby — Security Engineer, Penetration Tester &amp; Red Teamer</h1>
+<!--
+  README.md — 0x74shelby Security Engineer Portfolio
+  GitHub: 0x74shelby
+-->
+
+<h1 align="center">0x74shelby — Security Engineer Portfolio</h1>
 
 <p align="center">
-  <em>Penetration testing · Red team operations · CTF writeups · Malware research</em><br/>
-  <sub>Built &amp; maintained by <a href="https://github.com/0x74shelby">@0x74shelby</a> </sub>
+  <em>Penetration testing · Red teaming · CTF writeups · Malware research</em><br/>
+  <sub>Built &amp; maintained by <a href="https://github.com/0x74shelby">@0x74shelby</a></sub>
 </p>
 
 <p align="center">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white"/>
   <img alt="Static Site" src="https://img.shields.io/badge/Build-Static%20%2F%20No%20Deps-0a0a0a?style=flat-square"/>
-  <img alt="OSCP/CPTS/CEH" src="https://img.shields.io/badge/Certified-CPTS%20%7C%20CEH-0a0a0a?style=flat-square"/>
+  <img alt="SEO" src="https://img.shields.io/badge/SEO-Optimized-3366ff?style=flat-square"/>
 </p>
 
 ---
 
 ## About
 
-I'm **0x74shelby** — a security engineer based in Bangalore, doing penetration testing and red team work. Three years in, and I've stopped counting the apps, networks, and Active Directory forests I've gone through. The job is simple to describe and hard to do well: find what a real attacker would find, before they do, and prove it with a clean repro instead of a guess.
+Hey — I'm **0x74shelby**. I've spent the last three years doing offensive security: black-box, grey-box, and white-box pentesting, Active Directory attacks, web-app exploitation, and the occasional malware deep-dive when something old and weird catches my attention (the 1986 Brain virus post in `/blog` started exactly that way).
 
-CPTS (Hack The Box, 2026) and CEH (EC-Council, 2023) are the two certs I'll actually point you to. I don't treat them as trophies. They're just proof I've been tested on the stuff I claim to know. Outside of paid engagements, you'll usually find me knee-deep in a CTF box or chasing an old malware sample down a rabbit hole — the [Brain virus post](https://dorsiawave-me.pages.dev/blog/blog-worlds-first-virus.html) below started exactly that way.
+This repo is the source for [**0x74shelby.pages.dev**](https://0x74shelby.pages.dev) — a hand-coded static site. No framework, no build step, no tracking. Every page is a single HTML file you can open in a browser and read. I wanted the code to be as honest as the writeups.
 
-This repo is the source for my **[security engineer portfolio](https://dorsiawave-me.pages.dev/)** — a hand-coded static site, no framework, no build step, no tracking. Every page is one HTML file you can open and read top to bottom. I wanted the code to be as honest as the writeups.
+Four entry points:
 
-Three entry points:
-
-- 🏠 **Home** — hero, capabilities, pentest assessments → [`index.html`](https://dorsiawave-me.pages.dev/)
-- 📝 **Blog** — malware analysis, cybercrime history, threat research → [`blog.html`](https://dorsiawave-me.pages.dev/blog)
-- 🎯 **CTF Writeups** — rooted machines, full walkthroughs → [`ctf.html`](https://dorsiawave-me.pages.dev/ctf)
+- 🏠 **Home** → hero, capabilities, pentest projects → [`index.html`](https://0x74shelby.pages.dev/index.html)
+- 📝 **Blog** → long-form malware &amp; security research → [`blog.html`](https://0x74shelby.pages.dev/blog.html)
+- 🎯 **CTF Writeups** → rooted machines, step-by-step → [`ctf.html`](https://0x74shelby.pages.dev/ctf.html)
+- 📚 **Learn** → security knowledge base, attack concepts, fundamentals → [`learn.html`](https://0x74shelby.pages.dev/learn.html)
 
 ---
 
-## Arsenal
+## Highlighted posts
 
-What's actually in the kit, not just the logo wall:
+| Post | Category | Status |
+|---|---|---|
+| [The Brain Virus (1986): Two Brothers, Lahore, and the First PC Virus](https://0x74shelby.pages.dev/blog-worlds-first-virus.html) | Malware history · Case study | Published |
+| _More malware &amp; red-team posts in progress_ | — | Queued |
 
-`Burp Suite Pro` · `Metasploit` · `Nmap` / `Nessus` · `BloodHound` · `Wireshark`
+---
 
-**Focus areas:** Web application security · Active Directory pentesting · Network security · Privilege escalation · Lateral movement · OSINT
+## Security Knowledge Base
+
+[`learn.html`](https://0x74shelby.pages.dev/learn.html) is a growing reference covering every concept I actually use in the field — not textbook theory, but practical notes from real engagements and CTF labs.
+
+| Topic | Category | Level |
+|---|---|---|
+| [Linux Fundamentals](https://0x74shelby.pages.dev/learn/learn-linux-fundamentals.html) | Foundations | Beginner |
+| [Network Foundations](https://0x74shelby.pages.dev/learn/learn-network-foundations.html) | Foundations | Beginner |
+| [Nmap](https://0x74shelby.pages.dev/learn/learn-nmap.html) | Enumeration | Beginner |
+| [DNS Enumeration](https://0x74shelby.pages.dev/learn/learn-dns-enumeration.html) | Enumeration | Intermediate |
+| [Footprinting](https://0x74shelby.pages.dev/learn/learn-footprinting.html) | Enumeration | Intermediate |
+| [Bash Scripting](https://0x74shelby.pages.dev/learn/learn-bash-scripting.html) | Scripting | Intermediate |
+| [Web Fuzzing](https://0x74shelby.pages.dev/learn/learn-web-fuzzing.html) | Web | Intermediate |
+| [SQL Injection](https://0x74shelby.pages.dev/learn/learn-sql-injection.html) | Web | Intermediate |
+| [XSS](https://0x74shelby.pages.dev/learn/learn-xss.html) | Web | Intermediate |
+| [File Inclusion](https://0x74shelby.pages.dev/learn/learn-file-inclusion.html) | Web | Intermediate |
+| [File Upload Attacks](https://0x74shelby.pages.dev/learn/learn-file-upload.html) | Web | Intermediate |
+| [Command Injection](https://0x74shelby.pages.dev/learn/learn-command-injection.html) | Web | Intermediate |
+| [Shells and Payloads](https://0x74shelby.pages.dev/learn/learn-shells-payloads.html) | Access | Intermediate |
+| [Password Attack Techniques](https://0x74shelby.pages.dev/learn/learn-password-attacks.html) | Access | Intermediate |
+| [Network Pivoting and Tunneling](https://0x74shelby.pages.dev/learn/learn-network-pivoting.html) | Access | Advanced |
+| [Linux Privilege Escalation](https://0x74shelby.pages.dev/learn/learn-linux-privesc.html) | Post-Exploitation | Advanced |
+| [Windows Privilege Escalation](https://0x74shelby.pages.dev/learn/learn-windows-privesc.html) | Post-Exploitation | Advanced |
+| [Buffer Overflow](https://0x74shelby.pages.dev/learn/learn-buffer-overflow.html) | Exploitation | Advanced |
+| [Active Directory Fundamentals](https://0x74shelby.pages.dev/learn/learn-active-directory.html) | Active Directory | Advanced |
+| [Active Directory Attack Techniques](https://0x74shelby.pages.dev/learn/learn-ad-attacks.html) | Active Directory | Advanced |
+| [Android Security](https://0x74shelby.pages.dev/learn/learn-android-security.html) | Mobile | Advanced |
+| [Hardware Attacks](https://0x74shelby.pages.dev/learn/learn-hardware-attacks.html) | Hardware | Advanced |
 
 ---
 
 ## Pentest assessments
 
-Four engagements, each with the full PDF report on my [Reports archive](https://github.com/0x74shelby/pentestreports):
+Three recent engagements — full PDF reports on my [Reports repo](https://github.com/0x74shelby/pentestreports):
 
-| Engagement | Type | Difficulty | What it tested |
+| Project | Type | Difficulty | What it tested |
 |---|---|---|---|
-| [Blinders](https://dorsiawave-me.pages.dev/writeups/post-blinders.html) | Black box | Medium | OSINT recon, username-anarchy generation, credential reuse, GTFObins privesc |
-| [Demon](https://dorsiawave-me.pages.dev/writeups/post-demon.html) | Grey box | Hard | Vhost enumeration, Jenkins Groovy console RCE, rbash escape, sudo misconfig |
-| [KGF](https://dorsiawave-me.pages.dev/writeups/post-kgf.html) | White box | Hard | SNMP enum, IMAPS credential extraction, r-services pivot, dual-host root |
-| [VulnCMS](https://dorsiawave-me.pages.dev/post-vulncms) | VulnHub | Medium | Drupalgeddon2 RCE, journalctl GTFObins |
-
-Blinders taught me something I keep relearning: the weakest link is rarely technical. It's a reused password. Demon's whole engagement turned on one hidden Jenkins instance nobody remembered was running. KGF is still my favorite — full white-box access didn't make the dual-host pivot any less satisfying to land.
+| [Blinders](https://0x74shelby.pages.dev/post-blinders.html) | Black box | Medium | OSINT → credential reuse → privesc |
+| [Demon](https://0x74shelby.pages.dev/post-demon.html) | Grey box | Hard | Vhost discovery, Jenkins RCE, sudo misconfig, rbash escape |
+| [KGF](https://0x74shelby.pages.dev/post-kgf.html) | White box | Hard | SNMP enum, IMAPS creds, r-services pivot, dual-host root |
+| [VulnCMS](https://0x74shelby.pages.dev/post-vulncms.html) | VulnHub | Medium | Drupalgeddon2 RCE, journalctl GTFObins |
 
 ---
 
-## Intel Feed — recent posts
+## CTF machines — UTM virtualization guide
 
-Malware analysis, cybercrime history, and the occasional tech-fraud teardown:
+A lot of people ask me how I run my CTF boxes locally on Apple Silicon without dragging a full VMware or VirtualBox install onto the machine. Short answer: **UTM**. It's the free QEMU-based virtualizer for macOS / iPadOS, and once you get the hang of it, it's honestly the cleanest way to spin up a vulnerable VM for practice.
 
-| Post | Category | Date |
-|---|---|---|
-| [BellTroX & Dark Basin: The Delhi Hack-for-Hire Shop Exposed](https://dorsiawave-me.pages.dev/blog/blog-belltrox-dark-basin.html) | Cybercrime History | 17 May 2026 |
-| [REvil: Inside the Ransomware-as-a-Service Empire](https://dorsiawave-me.pages.dev/blog/blog-revil-raas.html) | Cybercrime History | 13 May 2026 |
-| [The ATM Boy: Dan Saunders & the AU$1.6M NAB Glitch](https://dorsiawave-me.pages.dev/blog/blog-atm-glitch-dan-saunders.html) | Cybercrime History | 09 May 2026 |
-| [Builder.ai: The $450M Fake AI Company That Was Just People Typing Fast](https://dorsiawave-me.pages.dev/blog/blog-builder-ai-fake.html) | Tech Fraud | 03 May 2026 |
-| [Vladimir Levin vs. Citibank (1994) — The First Online Bank Heist](https://dorsiawave-me.pages.dev/blog/blog-online-bank-robbery.html) | Cybercrime History | 26 Apr 2026 |
-| [Brain (1986): How Two Brothers From Lahore Wrote the First PC Virus](https://dorsiawave-me.pages.dev/blog/blog-worlds-first-virus.html) | Malware Analysis | 19 Apr 2026 |
+Instead of rewriting everything here, I put together a small walk-through site covering the setup, network modes, and the gotchas I hit early on:
 
-Full archive on the [blog page](https://dorsiawave-me.pages.dev/blog.html).
+**📖 Guide:** [utm.dorisa74964.workers.dev](https://utm.dorisa74964.workers.dev/) — still on the old Workers subdomain; not renamed since this rebrand only covers the pages.dev site
+
+Give it a read before you attempt any of the writeups in [`/ctf.html`](https://0x74shelby.pages.dev/ctf.html) — a lot of the "why can't I reach the box" questions I get are just network-mode issues the guide already answers.
+
+> ⚠️ Anything you boot in a CTF context is intentionally vulnerable. Keep it on a host-only / NAT interface. Don't bridge it to your LAN and definitely don't expose it to the open internet.
 
 ---
 
-## CTF writeups
+## Running the site locally
 
-Rooted machines with the actual thought process included — dead ends and all:
+No build step. Pick whichever you have handy:
 
-| Writeup | Type | Difficulty | Path |
-|---|---|---|---|
-| [Blinders](https://dorsiawave-me.pages.dev/writeups/post-blinders.html) | Linux, custom VM | Medium | OSINT → Hydra brute force → Sherlock recon → MySQL creds → GTFObins root |
-| [KGF](https://dorsiawave-me.pages.dev/writeups/post-kgf.html) | Linux, custom VM | Hard | SNMP enum → IMAPS creds → r-services pivot → root on both hosts |
-| [Demon](https://dorsiawave-me.pages.dev/writeups/post-demon.html) | Linux, custom VM | Hard | Vhost enum → Jenkins RCE → XLSX hash cracking → rbash escape → root |
+```bash
+# Python (ships with macOS / most Linux)
+python3 -m http.server 8080
 
-Full archive on the [CTF page](https://dorsiawave-me.pages.dev/ctf.html).
+# Node
+npx serve .
+```
+
+Then open <http://localhost:8080>.
 
 ---
 
 ## Contact
 
-- 🌐 **Portfolio** — [dorsiawave-me.pages.dev](https://dorsiawave-me.pages.dev/)
+- 🌐 **Site** — [0x74shelby.pages.dev](https://0x74shelby.pages.dev)
 - 💻 **GitHub** — [@0x74shelby](https://github.com/0x74shelby)
+- 💼 **LinkedIn** — [in/0x74shelby](https://www.linkedin.com/in/0x74shelby)
+- 🐦 **Twitter / X** — [@0x74shelby](https://x.com/0x74shelby)
 - 📄 **Reports archive** — [github.com/0x74shelby/pentestreports](https://github.com/0x74shelby/pentestreports)
 
-Open to red team work and pentest engagements — reach out if you want to talk shop or just ask how I rooted KGF.
+DMs on LinkedIn are open — red-team work, pentest engagements, or if you just want to ask how I rooted KGF.
 
 ---
 
 <p align="center">
-  <sub>© 0x74shelby — All writeups &amp; posts are my own work.</sub>
+  <sub>© 2026 0x74shelby — All writeups &amp; posts are my own work.</sub>
 </p>
